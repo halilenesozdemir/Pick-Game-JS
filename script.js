@@ -88,8 +88,8 @@ if(playing){
      document.getElementById(`score--${activePlayer}`).textContent = scores[activePlayer];
     // scores[1] = scores[1] + currentScore
 
-    // Score >= 100 
-    if(scores[activePlayer] >= 20){
+    // Score >= 50 
+    if(scores[activePlayer] >= 50){
 
     playing = false;
     //Finish the game
